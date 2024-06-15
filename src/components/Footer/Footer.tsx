@@ -10,7 +10,7 @@ import FooterIcon from './FooterIcon';
 
 
 const Footer: FC = () => {
-    return <Paper sx={{ position: 'static', bottom: 0, left: 0, right: 0 }} elevation={0} aria-label="footer">
+    return <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={0} aria-label="footer">
         <BottomNavigation sx={{ backgroundColor: '#512da8' }}>
             <FooterIcon label="Events" icon={<EventIcon />} href="https://womeninsoftware-japan.connpass.com/" />
             <FooterIcon label="Instagram" icon={<InstagramIcon />} href="https://www.instagram.com/womeninsoftwarejp/" />
